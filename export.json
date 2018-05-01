@@ -1,231 +1,279 @@
 {
   "sites" : [ {
-    "globalId" : "303df796-ed80-4b19-b048-862d1a37fd98",
+    "globalId" : "848db46f-4bf9-4caa-be08-359ba3d93be5",
     "id" : "858db46f-4bf9-4caa-be08-359ba3d93be9",
     "name" : "Sample",
-    "date" : "2018-04-09T17:19Z",
+    "date" : "2018-04-27T02:10Z",
     "description" : "Sample Site",
     "url" : "http://example.com",
     "postTypeLayout" : "{\"PT-ARTICLE\" :  \"Post Page Layout\", \n\"PT-TEXT\": \"Post Page Layout\",\n\"PT-TEXT-AREA\": \"Post Page Layout\"}",
-    "rootFolders" : [ "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6", "2d9fe0e5-65a4-436b-a193-6e7db18f5230" ]
+    "owner" : "admin",
+    "furl" : "sample",
+    "rootFolders" : [ "4bbc4f8b-26e6-44d8-9f3c-25c496c9cd66", "64670b4e-230c-4397-b91d-b49ef4d565db" ]
   } ],
   "folders" : [ {
-    "globalId" : "8cb56190-4237-47a9-87ac-fb7459c7fdff",
-    "id" : "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6",
-    "date" : "2018-04-09T17:19Z",
-    "name" : "Home",
-    "parentFolder" : null
-  }, {
-    "globalId" : "6535d27e-9c13-453b-bff4-886a15a21951",
-    "id" : "47b05e97-f9fa-4f4b-a80d-0d29d724fe72",
-    "date" : "2018-04-09T17:19Z",
-    "name" : "Article",
-    "parentFolder" : "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6"
-  }, {
-    "globalId" : "e071e882-5733-4c25-a2a9-75327411d5ed",
-    "id" : "aa10497f-5f00-446c-8914-30cab1794ccf",
-    "date" : "2018-04-09T17:19Z",
-    "name" : "News",
-    "parentFolder" : "47b05e97-f9fa-4f4b-a80d-0d29d724fe72"
-  }, {
-    "globalId" : "03a2ee9a-42c5-463c-bca6-7917c56970bc",
-    "id" : "d4b7cc13-e990-403e-9060-a448702435f3",
-    "date" : "2018-04-09T17:19Z",
-    "name" : "Text",
-    "parentFolder" : "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6"
-  }, {
-    "globalId" : "ee3bc925-864a-4147-847c-d2da11cc2c7d",
-    "id" : "2d9fe0e5-65a4-436b-a193-6e7db18f5230",
-    "date" : "2018-04-09T17:19Z",
+    "globalId" : "4d323eea-6b33-470d-86ac-f9f3dbff20eb",
+    "id" : "4bbc4f8b-26e6-44d8-9f3c-25c496c9cd66",
+    "date" : "2018-04-27T02:10Z",
     "name" : "System",
-    "parentFolder" : null
+    "parentFolder" : null,
+    "owner" : "admin",
+    "furl" : "system"
   }, {
-    "globalId" : "eb5d9f48-eb15-45db-8926-926a9c2bc952",
-    "id" : "2d90027c-8947-4715-ac23-ee43e05bd3a8",
-    "date" : "2018-04-09T17:19Z",
+    "globalId" : "ecfedcc3-356b-4e32-a5e7-2c86d8325a88",
+    "id" : "9390cb66-d6eb-4281-b6d5-ea5d3e010d9e",
+    "date" : "2018-04-27T02:10Z",
     "name" : "Layouts",
-    "parentFolder" : "2d9fe0e5-65a4-436b-a193-6e7db18f5230"
+    "parentFolder" : "4bbc4f8b-26e6-44d8-9f3c-25c496c9cd66",
+    "owner" : "admin",
+    "furl" : "layouts"
   }, {
-    "globalId" : "7876bb6d-b1c3-4563-b07b-4a2e34740292",
-    "id" : "46488318-0a25-41e2-838f-0c0507e264f1",
-    "date" : "2018-04-09T17:19Z",
-    "name" : "Themes",
-    "parentFolder" : "2d9fe0e5-65a4-436b-a193-6e7db18f5230"
-  }, {
-    "globalId" : "462b23c2-bc58-41d2-9694-8d5b2b6bce96",
-    "id" : "4b6367e3-e738-4281-8540-566071134ce8",
-    "date" : "2018-04-09T17:19Z",
+    "globalId" : "6b069238-8fde-4c12-8df7-4cc3be5f9bee",
+    "id" : "ea333ced-159d-4719-981b-fd979ece39c0",
+    "date" : "2018-04-27T02:10Z",
     "name" : "Templates",
-    "parentFolder" : "2d9fe0e5-65a4-436b-a193-6e7db18f5230"
+    "parentFolder" : "4bbc4f8b-26e6-44d8-9f3c-25c496c9cd66",
+    "owner" : "admin",
+    "furl" : "templates"
+  }, {
+    "globalId" : "24a9cc2e-5c5e-4ee3-ac7c-581efaa6c42b",
+    "id" : "fb005a32-2bd9-4028-a991-5bd5e4105d16",
+    "date" : "2018-04-27T02:10Z",
+    "name" : "Themes",
+    "parentFolder" : "4bbc4f8b-26e6-44d8-9f3c-25c496c9cd66",
+    "owner" : "admin",
+    "furl" : "themes"
+  }, {
+    "globalId" : "bedfc036-af31-4cd5-be6d-af872abdc104",
+    "id" : "64670b4e-230c-4397-b91d-b49ef4d565db",
+    "date" : "2018-04-27T02:10Z",
+    "name" : "Home",
+    "parentFolder" : null,
+    "owner" : "admin",
+    "furl" : "home"
+  }, {
+    "globalId" : "6112dd41-d671-4b97-a4c6-07e7dd20316a",
+    "id" : "4b417e14-dc52-4bdb-b4c6-928ea180f3f2",
+    "date" : "2018-04-27T02:10Z",
+    "name" : "Text",
+    "parentFolder" : "64670b4e-230c-4397-b91d-b49ef4d565db",
+    "owner" : "admin",
+    "furl" : "text"
+  }, {
+    "globalId" : "0f131be2-324e-49e5-ab59-0209d40220af",
+    "id" : "f8463c94-d2f5-4c78-9e1d-23225d1b70d8",
+    "date" : "2018-04-27T02:10Z",
+    "name" : "Article",
+    "parentFolder" : "64670b4e-230c-4397-b91d-b49ef4d565db",
+    "owner" : "admin",
+    "furl" : "article"
+  }, {
+    "globalId" : "74eb9b84-5199-4164-bee0-5bba66145a95",
+    "id" : "a430a9eb-44d6-44f6-93e9-01d675da89a3",
+    "date" : "2018-04-27T02:10Z",
+    "name" : "News",
+    "parentFolder" : "f8463c94-d2f5-4c78-9e1d-23225d1b70d8",
+    "owner" : "admin",
+    "furl" : "news"
   } ],
   "posts" : [ {
-    "globalId" : "3c305491-8968-48be-a5a1-0bf63bd59433",
-    "id" : "4b9bbaaa-3fba-4377-aeb5-5b285963b9c8",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6",
-    "postType" : "PT-FOLDER-INDEX",
-    "fields" : {
-      "DESCRIPTION" : "Folder Index",
-      "PAGE-LAYOUT" : "Folder Page Layout",
-      "TITLE" : "index"
-    }
-  }, {
-    "globalId" : "bd19685a-3c6f-4669-b979-827ba5f8d79a",
-    "id" : "990e5c4b-3369-4718-b8dc-5efde982c4b7",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6",
-    "postType" : "PT-TEXT",
-    "fields" : {
-      "TEXT" : "Post01"
-    }
-  }, {
-    "globalId" : "8d99cb7c-d2f6-4298-83f9-29b8f68df9a1",
-    "id" : "d0b4fc17-8206-47e0-a464-a97fdf776583",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "26df1eee-a899-4cd7-9e5d-37ef3ceeb8f6",
-    "postType" : "PT-TEXT-AREA",
-    "fields" : {
-      "TEXT" : "Post Text Area 01"
-    }
-  }, {
-    "globalId" : "28f64b71-9ecf-4365-8ac3-8868c1a53e23",
-    "id" : "3c4c71b2-6679-4c74-acc0-b8598694fd10",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "47b05e97-f9fa-4f4b-a80d-0d29d724fe72",
-    "postType" : "PT-ARTICLE",
-    "fields" : {
-      "DESCRIPTION" : "A short description",
-      "TEXT" : "Some text...",
-      "TITLE" : "Post Article Title"
-    }
-  }, {
-    "globalId" : "7f22dca9-3dd0-49e9-886f-83d484c5dfec",
-    "id" : "bbe24518-f54e-478d-b9f1-d509f2afbf5d",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "47b05e97-f9fa-4f4b-a80d-0d29d724fe72",
-    "postType" : "PT-FOLDER-INDEX",
-    "fields" : {
-      "DESCRIPTION" : "Folder Index",
-      "PAGE-LAYOUT" : "Folder Page Layout",
-      "TITLE" : "index"
-    }
-  }, {
-    "globalId" : "e979fdc9-634a-4ecd-91d9-c39975abd829",
-    "id" : "788aa974-5540-4051-b9ee-d8dd322d6841",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "aa10497f-5f00-446c-8914-30cab1794ccf",
-    "postType" : "PT-FOLDER-INDEX",
-    "fields" : {
-      "DESCRIPTION" : "Folder Index",
-      "PAGE-LAYOUT" : "Folder Page Layout",
-      "TITLE" : "index"
-    }
-  }, {
-    "globalId" : "84770da5-5802-404c-a07c-4650c9e63861",
-    "id" : "bcb8a4eb-a5e9-4459-b404-61b7e113cb6b",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "aa10497f-5f00-446c-8914-30cab1794ccf",
-    "postType" : "PT-ARTICLE",
-    "fields" : {
-      "DESCRIPTION" : "A short description 2",
-      "TITLE" : "Post Article Title"
-    }
-  }, {
-    "globalId" : "75ee0b11-86e5-4718-9a8e-4f00d0c6f479",
-    "id" : "0257fb42-dbdb-49c1-b239-cef3d507b7e5",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "d4b7cc13-e990-403e-9060-a448702435f3",
-    "postType" : "PT-FOLDER-INDEX",
-    "fields" : {
-      "DESCRIPTION" : "Folder Index",
-      "PAGE-LAYOUT" : "Folder Page Layout",
-      "TITLE" : "index"
-    }
-  }, {
-    "globalId" : "971a7981-bea2-4ae4-800d-3f89be6f6b23",
-    "id" : "ed092789-0aa9-45ea-a588-7de8dd17bedf",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "2d90027c-8947-4715-ac23-ee43e05bd3a8",
-    "postType" : "PT-PAGE-LAYOUT",
-    "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
-      "DESCRIPTION" : "Post Page Layout",
-      "THEME" : "Sample Theme",
-      "HTML" : "<!DOCTYPE html>\n<html>\n    <head>\n        <title>\n            Sample Site\n        </title>\n        {{{theme.css}}}\n    </head>\n    <body>\n        <div sh-region=\"Navigation\">\n            Navigation Placeholder\n        </div>\n        <div sh-region=\"Content\">\n            Content Placeholder\n        </div>\n    </body>\n    {{{theme.javascript}}}\n</html>",
-      "TITLE" : "Post Page Layout"
-    }
-  }, {
-    "globalId" : "7220cf17-d157-46e0-b0d7-ecd936238e21",
-    "id" : "fa5d26f0-4cd0-4d1c-b226-de067508a2a3",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "2d90027c-8947-4715-ac23-ee43e05bd3a8",
+    "globalId" : "5f652fe2-e0fd-4a6a-975c-5440de35372e",
+    "id" : "d7d3201a-e881-481d-a2d3-69b1ed86b4e4",
+    "date" : "2018-04-29T02:48Z",
+    "folder" : "9390cb66-d6eb-4281-b6d5-ea5d3e010d9e",
     "postType" : "PT-PAGE-LAYOUT",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Folder Page Layout",
-      "THEME" : "Sample Theme",
+      "THEME" : "9d6e789b-81fc-4f61-b238-55f342827d75",
       "TITLE" : "Folder Page Layout",
       "HTML" : "<!DOCTYPE html>\n<html>\n    <head>\n        <title>\n            Sample Site | Viglet Shiohara\n        </title>\n        {{{theme.css}}}\n    </head>\n    <body>\n        <div sh-region=\"NavigationFolder\">\n            Navigation Placeholder\n        </div>\n        <div sh-region=\"ContentFolder\">\n            Content Placeholder\n        </div>\n    </body>\n    {{{theme.javascript}}}\n</html>"
-    }
+    },
+    "owner" : "admin",
+    "furl" : "folder-page-layout"
   }, {
-    "globalId" : "d10559f2-31f4-45bf-9acd-a80d4739b6ee",
-    "id" : "6e3b354e-8469-43ac-b638-ce61b2f2236e",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "46488318-0a25-41e2-838f-0c0507e264f1",
-    "postType" : "PT-THEME",
+    "globalId" : "f30e4b42-a557-458b-81e3-f12c01525512",
+    "id" : "3773287e-2c3d-468b-8c6f-edf5c029b108",
+    "date" : "2018-04-29T02:48Z",
+    "folder" : "9390cb66-d6eb-4281-b6d5-ea5d3e010d9e",
+    "postType" : "PT-PAGE-LAYOUT",
     "fields" : {
-      "JAVASCRIPT" : "<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n<script src=\"https://viglet.ai/ui/thirdparty/jquery/dist/jquery.min.js\"></script>\n<!-- Include all compiled plugins (below), or include individual files as needed -->\n<script src=\"https://viglet.ai/ui/thirdparty/bootstrap/dist/js/bootstrap.min.js\"></script>",
-      "CSS" : "<link href=\"https://blackrockdigital.github.io/startbootstrap-one-page-wonder/vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i\" rel=\"stylesheet\">\n<link href=\"https://blackrockdigital.github.io/startbootstrap-one-page-wonder/css/one-page-wonder.min.css\" rel=\"stylesheet\">",
-      "DESCRIPTION" : "Sample Theme",
-      "TITLE" : "Sample Theme"
-    }
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
+      "DESCRIPTION" : "Post Page Layout",
+      "THEME" : "9d6e789b-81fc-4f61-b238-55f342827d75",
+      "TITLE" : "Post Page Layout",
+      "HTML" : "<!DOCTYPE html>\n<html>\n    <head>\n        <title>\n            Sample Site\n        </title>\n        {{{theme.css}}}\n    </head>\n    <body>\n        <div sh-region=\"Navigation\">\n            Navigation Placeholder\n        </div>\n        <div sh-region=\"Content\">\n            Content Placeholder\n        </div>\n    </body>\n    {{{theme.javascript}}}\n</html>"
+    },
+    "owner" : "admin",
+    "furl" : "post-page-layout"
   }, {
-    "globalId" : "f09fd04a-0d16-4d95-b4d1-efe783158aec",
-    "id" : "268e7e4a-d382-4a82-8125-3169aae2a0c5",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "4b6367e3-e738-4281-8540-566071134ce8",
+    "globalId" : "41ba3a9b-da8c-4be2-b0f1-ab0884da2d83",
+    "id" : "5b85016d-aa61-430c-a920-812dcf5be845",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "ea333ced-159d-4719-981b-fd979ece39c0",
     "postType" : "PT-REGION",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Navigation Template",
-      "TITLE" : "Navigation",
-      "HTML" : "<!-- Navigation -->\n    <nav class=\"navbar navbar-expand-lg navbar-dark navbar-custom fixed-top\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"#\">Viglet Shiohara</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n          <ul class=\"navbar-nav ml-auto\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"/#!/content/post/type/{{system.post-type-id}}/post/{{system.id}}\">Come back to Content</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>"
-    }
+      "HTML" : "<!-- Navigation -->\n    <nav class=\"navbar navbar-expand-lg navbar-dark navbar-custom fixed-top\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"#\">Viglet Shiohara</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n          <ul class=\"navbar-nav ml-auto\">\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"/#!/content/post/type/{{system.post-type-id}}/post/{{system.id}}\">Come back to Content</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>",
+      "TITLE" : "Navigation"
+    },
+    "owner" : "admin",
+    "furl" : "navigation"
   }, {
-    "globalId" : "86d15de9-1813-4abb-a9b2-bc33dcfa91ba",
-    "id" : "30294024-ed58-482f-937b-4e0080f147ad",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "4b6367e3-e738-4281-8540-566071134ce8",
+    "globalId" : "465fd3e9-ed22-4a15-bad7-61a2de63568a",
+    "id" : "66fb0c6f-d4c7-4391-993a-33bb3365cdd4",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "ea333ced-159d-4719-981b-fd979ece39c0",
+    "postType" : "PT-REGION",
+    "fields" : {
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
+      "DESCRIPTION" : "Content Folder Template",
+      "HTML" : " <header class=\"masthead text-center text-white\">\n      <div class=\"masthead-content\">\n        <div class=\"container\">\n          <h1 class=\"masthead-heading mb-0\">{{system.title}}</h1>\n          <h2 class=\"masthead-subheading mb-0\">{{system.summary}}</h2>\n            {{#each posts}}\n            <a href=\"{{../site.system.link}}{{this.system.link}}\" class=\"btn btn-primary btn-xl rounded-pill mt-5\">{{this.system.title}}</a>\n            {{/each}}\n        </div>\n      </div>\n      <div class=\"bg-circle-1 bg-circle\"></div>\n      <div class=\"bg-circle-2 bg-circle\"></div>\n      <div class=\"bg-circle-3 bg-circle\"></div>\n      <div class=\"bg-circle-4 bg-circle\"></div>\n    </header>\n\n    \n    <!-- Footer -->\n    <footer class=\"py-5 bg-black\">\n      <div class=\"container\">\n        <p class=\"m-0 text-center text-white small\">Copyright &copy; Viglet 2018</p>\n      </div>\n      <!-- /.container -->\n    </footer>\n",
+      "TITLE" : "ContentFolder"
+    },
+    "owner" : "admin",
+    "furl" : "contentfolder"
+  }, {
+    "globalId" : "fdb5ea8b-07c3-4715-b78f-c8adcf21256e",
+    "id" : "f47d8b69-cca7-41be-933a-766e067a14b2",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "ea333ced-159d-4719-981b-fd979ece39c0",
+    "postType" : "PT-REGION",
+    "fields" : {
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
+      "DESCRIPTION" : "Navigation Folder Template",
+      "HTML" : "<!-- Navigation -->\n    <nav class=\"navbar navbar-expand-lg navbar-dark navbar-custom fixed-top\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"#\">Viglet Shiohara</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n          <ul class=\"navbar-nav ml-auto\">\n                {{#each folders}}\n                    <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"{{../site.system.link}}{{this.system.link}}\">{{this.system.title}}</a>\n                    </li>\n                {{/each}}\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"/#!/content/list/folder/{{system.id}}\">Come back to Folder</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>",
+      "TITLE" : "NavigationFolder"
+    },
+    "owner" : "admin",
+    "furl" : "navigationfolder"
+  }, {
+    "globalId" : "fd6e05d4-1766-4112-a015-932dd1f014f9",
+    "id" : "fb18d3e1-8c20-474d-a548-167d88e5f9f3",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "ea333ced-159d-4719-981b-fd979ece39c0",
     "postType" : "PT-REGION",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Content Template",
       "TITLE" : "Content",
       "HTML" : "<header class=\"masthead text-center text-white\">\n      <div class=\"masthead-content\">\n        <div class=\"container\">\n          <h1 class=\"masthead-heading mb-0\">{{system.title}}</h1>\n          <h2 class=\"masthead-subheading mb-0\">{{system.summary}}</h2>\n          <a href=\"#\" class=\"btn btn-primary btn-xl rounded-pill mt-5\">Learn More</a>\n        </div>\n      </div>\n      <div class=\"bg-circle-1 bg-circle\"></div>\n      <div class=\"bg-circle-2 bg-circle\"></div>\n      <div class=\"bg-circle-3 bg-circle\"></div>\n      <div class=\"bg-circle-4 bg-circle\"></div>\n    </header>\n\n    \n    <!-- Footer -->\n    <footer class=\"py-5 bg-black\">\n      <div class=\"container\">\n        <p class=\"m-0 text-center text-white small\">Copyright &copy; Viglet 2018</p>\n      </div>\n      <!-- /.container -->\n    </footer>"
-    }
+    },
+    "owner" : "admin",
+    "furl" : "content"
   }, {
-    "globalId" : "d38b2e27-c483-4322-95f6-04b93d7afedb",
-    "id" : "62153c00-56fa-4e6e-9eee-09d818cf32d0",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "4b6367e3-e738-4281-8540-566071134ce8",
-    "postType" : "PT-REGION",
+    "globalId" : "773f5303-4fa6-4b3f-8807-b71c953e456b",
+    "id" : "9d6e789b-81fc-4f61-b238-55f342827d75",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "fb005a32-2bd9-4028-a991-5bd5e4105d16",
+    "postType" : "PT-THEME",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
-      "DESCRIPTION" : "Navigation Folder Template",
-      "TITLE" : "NavigationFolder",
-      "HTML" : "<!-- Navigation -->\n    <nav class=\"navbar navbar-expand-lg navbar-dark navbar-custom fixed-top\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"#\">Viglet Shiohara</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n          <ul class=\"navbar-nav ml-auto\">\n                {{#each folders}}\n                    <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"{{../site.system.link}}{{this.system.link}}\">{{this.system.title}}</a>\n                    </li>\n                {{/each}}\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" href=\"/#!/content/list/folder/{{system.id}}\">Come back to Folder</a>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </nav>"
-    }
+      "JAVASCRIPT" : "<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n<script src=\"https://viglet.ai/ui/thirdparty/jquery/dist/jquery.min.js\"></script>\n<!-- Include all compiled plugins (below), or include individual files as needed -->\n<script src=\"https://viglet.ai/ui/thirdparty/bootstrap/dist/js/bootstrap.min.js\"></script>",
+      "CSS" : "<link href=\"https://blackrockdigital.github.io/startbootstrap-one-page-wonder/vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i\" rel=\"stylesheet\">\n<link href=\"https://blackrockdigital.github.io/startbootstrap-one-page-wonder/css/one-page-wonder.min.css\" rel=\"stylesheet\">",
+      "DESCRIPTION" : "Sample Theme",
+      "TITLE" : "Sample Theme"
+    },
+    "owner" : "admin",
+    "furl" : "sample-theme"
   }, {
-    "globalId" : "87929d49-8dc4-4561-a890-ea647a424e63",
-    "id" : "f8f5fe4e-b509-4027-80cf-1af4a678d4e8",
-    "date" : "2018-04-09T17:19Z",
-    "folder" : "4b6367e3-e738-4281-8540-566071134ce8",
-    "postType" : "PT-REGION",
+    "globalId" : "cea39f17-296e-403b-acce-9c30be37bcff",
+    "id" : "990e5c4b-3369-4718-b8dc-5efde982c4b7",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "64670b4e-230c-4397-b91d-b49ef4d565db",
+    "postType" : "PT-TEXT",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
-      "DESCRIPTION" : "Content Folder Template",
-      "TITLE" : "ContentFolder",
-      "HTML" : " <header class=\"masthead text-center text-white\">\n      <div class=\"masthead-content\">\n        <div class=\"container\">\n          <h1 class=\"masthead-heading mb-0\">{{system.title}}</h1>\n          <h2 class=\"masthead-subheading mb-0\">{{system.summary}}</h2>\n            {{#each posts}}\n            <a href=\"{{../site.system.link}}{{this.system.link}}\" class=\"btn btn-primary btn-xl rounded-pill mt-5\">{{this.system.title}}</a>\n            {{/each}}\n        </div>\n      </div>\n      <div class=\"bg-circle-1 bg-circle\"></div>\n      <div class=\"bg-circle-2 bg-circle\"></div>\n      <div class=\"bg-circle-3 bg-circle\"></div>\n      <div class=\"bg-circle-4 bg-circle\"></div>\n    </header>\n\n    \n    <!-- Footer -->\n    <footer class=\"py-5 bg-black\">\n      <div class=\"container\">\n        <p class=\"m-0 text-center text-white small\">Copyright &copy; Viglet 2018</p>\n      </div>\n      <!-- /.container -->\n    </footer>\n"
-    }
+      "TEXT" : "Post01"
+    },
+    "owner" : "admin",
+    "furl" : "post01"
+  }, {
+    "globalId" : "d9767840-b8db-4763-b980-2d66334f3e0e",
+    "id" : "df3010bc-e96d-4687-bfa5-002b3a730d92",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "64670b4e-230c-4397-b91d-b49ef4d565db",
+    "postType" : "PT-TEXT-AREA",
+    "fields" : {
+      "TEXT" : "Post Text Area 01"
+    },
+    "owner" : "admin",
+    "furl" : "post-text-area-01"
+  }, {
+    "globalId" : "fff979c8-de9d-4e4c-a7d9-bd52fcc5e093",
+    "id" : "fdfe877f-8a1f-454b-b1f1-efb69b0091ea",
+    "date" : "2018-04-29T02:49Z",
+    "folder" : "64670b4e-230c-4397-b91d-b49ef4d565db",
+    "postType" : "PT-FOLDER-INDEX",
+    "fields" : {
+      "DESCRIPTION" : "Folder Index",
+      "PAGE-LAYOUT" : "d7d3201a-e881-481d-a2d3-69b1ed86b4e4",
+      "TITLE" : "index"
+    },
+    "owner" : "admin",
+    "furl" : "index"
+  }, {
+    "globalId" : "07380921-fb28-487b-85eb-e2eec00765a3",
+    "id" : "1ebe5062-aef3-4396-b8d1-a0d5337af48b",
+    "date" : "2018-04-29T02:49Z",
+    "folder" : "4b417e14-dc52-4bdb-b4c6-928ea180f3f2",
+    "postType" : "PT-FOLDER-INDEX",
+    "fields" : {
+      "DESCRIPTION" : "Folder Index",
+      "PAGE-LAYOUT" : "d7d3201a-e881-481d-a2d3-69b1ed86b4e4",
+      "TITLE" : "index"
+    },
+    "owner" : "admin",
+    "furl" : "index"
+  }, {
+    "globalId" : "e388db45-d41a-4110-97a0-97886a9b2170",
+    "id" : "3af5d1fb-ff64-43c6-8171-7101916c6942",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "f8463c94-d2f5-4c78-9e1d-23225d1b70d8",
+    "postType" : "PT-ARTICLE",
+    "fields" : {
+      "DESCRIPTION" : "A short description",
+      "TEXT" : "Some text...",
+      "TITLE" : "Post Article Title"
+    },
+    "owner" : "admin",
+    "furl" : "post-article-title"
+  }, {
+    "globalId" : "88daa08a-b7a9-4dd2-bc74-79df9b93691f",
+    "id" : "6227e585-d7d6-42aa-975f-95dce19e9db9",
+    "date" : "2018-04-29T02:49Z",
+    "folder" : "f8463c94-d2f5-4c78-9e1d-23225d1b70d8",
+    "postType" : "PT-FOLDER-INDEX",
+    "fields" : {
+      "DESCRIPTION" : "Folder Index",
+      "PAGE-LAYOUT" : "d7d3201a-e881-481d-a2d3-69b1ed86b4e4",
+      "TITLE" : "index"
+    },
+    "owner" : "admin",
+    "furl" : "index"
+  }, {
+    "globalId" : "529ffd17-6eec-4c90-ac24-78dbdfbc5716",
+    "id" : "cef72ab4-000c-41ad-8214-758b0d224c0c",
+    "date" : "2018-04-27T02:10Z",
+    "folder" : "a430a9eb-44d6-44f6-93e9-01d675da89a3",
+    "postType" : "PT-ARTICLE",
+    "fields" : {
+      "DESCRIPTION" : "A short description 2",
+      "TITLE" : "Post Article Title"
+    },
+    "owner" : "admin",
+    "furl" : "post-article-title"
+  }, {
+    "globalId" : "db37c709-d803-4b21-b225-bf31b45a468d",
+    "id" : "34c207f9-bbf5-4ce3-99c3-8e60179be09f",
+    "date" : "2018-04-30T17:30Z",
+    "folder" : "a430a9eb-44d6-44f6-93e9-01d675da89a3",
+    "postType" : "PT-FOLDER-INDEX",
+    "fields" : {
+      "DESCRIPTION" : "Folder Index",
+      "PAGE-LAYOUT" : "d7d3201a-e881-481d-a2d3-69b1ed86b4e4",
+      "TITLE" : "index"
+    },
+    "owner" : "admin",
+    "furl" : "index"
   } ]
 }
