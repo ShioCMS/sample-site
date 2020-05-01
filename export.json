@@ -241,7 +241,7 @@
     "id" : "2cb6d226-981d-408c-876c-b311c5df35f0",
     "date" : "2018-04-21T12:49Z",
     "folder" : "7e5b4bad-c85c-49bc-b77e-3ee5017bbfc3",
-    "postType" : "PT-REGION",
+    "postType" : "Region",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Viglet Footer Region",
@@ -255,7 +255,7 @@
     "id" : "b933ce70-c196-4d98-b2a5-5400c1c2d138",
     "date" : "2018-04-21T01:19Z",
     "folder" : "7e5b4bad-c85c-49bc-b77e-3ee5017bbfc3",
-    "postType" : "PT-REGION",
+    "postType" : "Region",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\n\nvar navigation = shObject.navigation(\"Viglet\", true);\nvar forEach = Array.prototype.forEach;\nvar currentFolder = new String(shContent.system.id);\nvar folders = [];\n\nforEach.call(navigation, function (shFolder) {\n    var folderId = new String(shFolder.id);\n    var folderName = new String(shFolder.name);\n    \n    var isCurrentFolder = false;\n    \n    if (!currentFolder.localeCompare(folderId)) {\n        isCurrentFolder = true;\n    }\n\n    var folder = {\n        \"name\" : shFolder.name,\n        \"link\" : shObject.generateFolderLink(shFolder.id),\n        \"current\": isCurrentFolder\n    }\n\n    folders.push(folder);\n});\n\nvar html = template(folders);\nhtml;",
       "DESCRIPTION" : "Viglet Header Region",
@@ -269,9 +269,9 @@
     "id" : "cdb51647-6a91-41c6-bd1c-fe8c74f9e392",
     "date" : "2018-04-22T17:18Z",
     "folder" : "7e5b4bad-c85c-49bc-b77e-3ee5017bbfc3",
-    "postType" : "PT-REGION",
+    "postType" : "Region",
     "fields" : {
-      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\n\nvar query  = shObject.query(\"6708e941-553f-4348-a485-baa4930fb6f2\", \"PT-TEXT\");\nvar forEach = Array.prototype.forEach;\n\nvar posts = [];\n\nforEach.call(query, function (shPost) {\n    var post = {\n        \"text\": shPost.TEXT.strValue,\n    }\n    posts.push(post);\n});\n\nvar html = template(posts);\nhtml;",
+      "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\n\nvar query  = shObject.query(\"6708e941-553f-4348-a485-baa4930fb6f2\", \"Text\");\nvar forEach = Array.prototype.forEach;\n\nvar posts = [];\n\nforEach.call(query, function (shPost) {\n    var post = {\n        \"text\": shPost.TEXT.strValue,\n    }\n    posts.push(post);\n});\n\nvar html = template(posts);\nhtml;",
       "DESCRIPTION" : "Viglet Vecchio Features Region",
       "HTML" : "    <div class=\"row row-centered\" style=\"margin-top:0px\">\n                    <div class=\"col-lg-9 col-md-9 col-sm-9 col-xs-9 col-centered\">\n                        <h2>Features</h2>\n                        <ul>\n                            {{#each this}}\n                            <li>{{this.text}}</li>\n                            {{/each}} \n                        </ul>\n                    </div>\n                </div>",
       "TITLE" : "VIGLET_VECCHIO_FEATURES_REGION"
@@ -283,7 +283,7 @@
     "id" : "3c7f8e0c-9590-4b3c-95f6-3ac25e66bb9a",
     "date" : "2018-04-21T01:57Z",
     "folder" : "b9003449-50ad-4e9b-ba59-00add178ad20",
-    "postType" : "PT-THEME",
+    "postType" : "Theme",
     "fields" : {
       "JAVASCRIPT" : " <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n    <script src=\"/store/file_source/Viglet/_static_files/thirdparty/jquery/dist/jquery.min.js\"></script>\n    <!-- Include all compiled plugins (below), or include individual files as needed -->\n    <script src=\"/store/file_source/Viglet/_static_files/thirdparty/bootstrap/dist/js/bootstrap.min.js\"></script>\n    <script src=\"/store/file_source/Viglet/_static_files/thirdparty/moment/min/moment-with-locales.min.js\"></script>\n    <script src=\"/store/file_source/Viglet/_static_files/thirdparty/angular/angular.min.js\"></script>\n    <script src=\"/store/file_source/Viglet/_static_files/js/viglet.js\"></script>\n    <script src=\"/store/file_source/Viglet/_static_files/js/viglet-app.js\"></script>\n    <script async defer src=\"https://buttons.github.io/buttons.js\"></script>",
       "CSS" : "<!-- Bootstrap -->\n    <link href=\"/store/file_source/Viglet/_static_files/thirdparty/bootstrap/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link href=\"https://viglet.ai/ui/thirdparty/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\">\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n          <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n          <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n        <![endif]-->\n    <link href=\"/store/file_source/Viglet/_static_files/css/viglet.css\" rel=\"stylesheet\">",
@@ -297,7 +297,7 @@
     "id" : "5a9d8d0c-5991-46d0-a8c3-541a4282da14",
     "date" : "2018-04-29T02:25Z",
     "folder" : "f95d1efe-f7a2-4378-b229-a713bf2c5571",
-    "postType" : "PT-PAGE-LAYOUT",
+    "postType" : "PageLayout",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Viglet Vecchio Layout",
@@ -312,7 +312,7 @@
     "id" : "680b0ce9-815b-455c-807f-07751f82ab73",
     "date" : "2018-04-29T02:22Z",
     "folder" : "f95d1efe-f7a2-4378-b229-a713bf2c5571",
-    "postType" : "PT-PAGE-LAYOUT",
+    "postType" : "PageLayout",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Viglet Home Layout",
@@ -327,7 +327,7 @@
     "id" : "f025bd46-8213-41d2-90ea-97fb2b8e7588",
     "date" : "2018-04-29T02:22Z",
     "folder" : "f95d1efe-f7a2-4378-b229-a713bf2c5571",
-    "postType" : "PT-PAGE-LAYOUT",
+    "postType" : "PageLayout",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Viglet DEVELOPER Layout",
@@ -342,7 +342,7 @@
     "id" : "f4d005d8-c92b-40e4-aab3-7fb7588bc7a7",
     "date" : "2018-04-29T02:23Z",
     "folder" : "f95d1efe-f7a2-4378-b229-a713bf2c5571",
-    "postType" : "PT-PAGE-LAYOUT",
+    "postType" : "PageLayout",
     "fields" : {
       "JAVASCRIPT" : "load('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js');\nvar template = Handlebars.compile(html);\nvar html = template(shContent);\nhtml;",
       "DESCRIPTION" : "Viglet Home Layout",
@@ -357,7 +357,7 @@
     "id" : "a2df4d4d-d391-4b50-b5ef-fc82dfe52fd1",
     "date" : "2018-04-21T01:33Z",
     "folder" : "2f72bbb5-1631-4325-b7b9-44d1b18897ef",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "font-awesome.min.css"
     },
@@ -368,7 +368,7 @@
     "id" : "f991a5e4-a656-4d9c-bf09-57f9975b0b5d",
     "date" : "2018-04-21T12:33Z",
     "folder" : "624a22e3-b6cb-41a4-b099-46892ffe9d6a",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "fontawesome-webfont.eot"
     },
@@ -379,7 +379,7 @@
     "id" : "6a4efdf8-47a8-4e54-b1c5-e9c0ea23d6c7",
     "date" : "2018-04-21T12:34Z",
     "folder" : "624a22e3-b6cb-41a4-b099-46892ffe9d6a",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "FontAwesome.otf"
     },
@@ -390,7 +390,7 @@
     "id" : "8fd0bb26-321d-4cbf-a552-1c6f4c422f9b",
     "date" : "2018-04-21T12:34Z",
     "folder" : "624a22e3-b6cb-41a4-b099-46892ffe9d6a",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "fontawesome-webfont.woff2"
     },
@@ -401,7 +401,7 @@
     "id" : "3079255c-8ffd-4a60-b00c-268b3380c56e",
     "date" : "2018-04-21T12:33Z",
     "folder" : "624a22e3-b6cb-41a4-b099-46892ffe9d6a",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "fontawesome-webfont.svg"
     },
@@ -412,7 +412,7 @@
     "id" : "c80212ed-89ae-42fe-83ac-e812c7a95d34",
     "date" : "2018-04-21T12:33Z",
     "folder" : "624a22e3-b6cb-41a4-b099-46892ffe9d6a",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "fontawesome-webfont.ttf"
     },
@@ -423,7 +423,7 @@
     "id" : "636ecfbb-c0c4-41c3-8d09-276c8deca00a",
     "date" : "2018-04-21T01:42Z",
     "folder" : "624a22e3-b6cb-41a4-b099-46892ffe9d6a",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "fontawesome-webfont.woff"
     },
@@ -434,7 +434,7 @@
     "id" : "00b581d8-3901-46b7-8c00-65116f1f38b5",
     "date" : "2018-04-21T01:39Z",
     "folder" : "21bf65b0-9dd1-4817-b69a-6ebd2b31a54f",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "angular.min.js"
     },
@@ -445,7 +445,7 @@
     "id" : "003a97db-ad6a-457c-b583-d3eca4f5dc33",
     "date" : "2018-04-21T01:38Z",
     "folder" : "ab802a6f-48d2-4d1c-958e-fa8b53511761",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "moment-with-locales.min.js"
     },
@@ -456,7 +456,7 @@
     "id" : "89154ec9-9d50-4af8-b4b4-0554a186e33e",
     "date" : "2018-04-21T01:36Z",
     "folder" : "dca47f08-7120-4205-87c0-085dfc524741",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "jquery.min.js"
     },
@@ -467,7 +467,7 @@
     "id" : "14312a69-ae5b-42e9-b365-9a25b172ce8c",
     "date" : "2018-04-21T01:37Z",
     "folder" : "138197f5-6546-45ad-af29-4e49790c61e1",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "bootstrap.min.js"
     },
@@ -478,7 +478,7 @@
     "id" : "d06db6eb-3711-4872-94e3-8075b0a8ba8a",
     "date" : "2018-04-21T01:31Z",
     "folder" : "1880cb39-c0f7-4f28-a8cb-49dc68b9fc5b",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "bootstrap.min.css"
     },
@@ -489,7 +489,7 @@
     "id" : "98429b59-57da-47d3-8a38-9bc54865a446",
     "date" : "2018-04-19T02:34Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "facebook-icon.png"
     },
@@ -500,7 +500,7 @@
     "id" : "45fc6579-5d77-411a-a4d4-63f2cfe6bb8a",
     "date" : "2018-04-21T01:12Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "emotion03.png"
     },
@@ -511,7 +511,7 @@
     "id" : "7e851a50-e7ed-4d6a-96fa-07a38d052941",
     "date" : "2018-04-21T01:13Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "emotion05.png"
     },
@@ -522,7 +522,7 @@
     "id" : "40127311-f747-4541-919a-41518207801d",
     "date" : "2018-04-21T01:00Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "vecchio_oauth2.png"
     },
@@ -533,7 +533,7 @@
     "id" : "7d0b0949-00da-4fa9-b341-8445e2924fb9",
     "date" : "2018-04-19T02:33Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "viglet_logo_sm.png"
     },
@@ -544,7 +544,7 @@
     "id" : "36f4ed43-ef57-4311-a4f5-e938cf2f5aec",
     "date" : "2018-04-21T01:12Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "emotion01.png"
     },
@@ -555,7 +555,7 @@
     "id" : "7b1f9a0d-6a7b-45f8-8d4b-b36d5b46f4f1",
     "date" : "2018-04-21T01:12Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "emotion02.png"
     },
@@ -566,7 +566,7 @@
     "id" : "4f95268e-0cf8-4258-b0f9-953caa3b481f",
     "date" : "2018-04-21T01:00Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "vecchio_bridge.jpg"
     },
@@ -577,7 +577,7 @@
     "id" : "574c5fea-39fd-4a81-9da9-8336494862cf",
     "date" : "2018-04-21T01:13Z",
     "folder" : "73b8318f-2804-4baf-b72a-5b0eb5d39ab9",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "emotion04.png"
     },
@@ -588,7 +588,7 @@
     "id" : "f0b2e44d-e5a3-46a9-8606-d8b42cfa7ae2",
     "date" : "2018-04-19T02:34Z",
     "folder" : "8f6aa05a-4f4f-4f5a-adc5-b8b33955d6f5",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "turing_features.png"
     },
@@ -599,7 +599,7 @@
     "id" : "d707665e-83f2-4c21-8e85-00a9cf024cb0",
     "date" : "2018-04-19T02:33Z",
     "folder" : "8f6aa05a-4f4f-4f5a-adc5-b8b33955d6f5",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "feelings.jpg"
     },
@@ -610,7 +610,7 @@
     "id" : "64ac6d7f-077e-40d6-a2a9-de25c61a601c",
     "date" : "2018-04-19T02:33Z",
     "folder" : "8f6aa05a-4f4f-4f5a-adc5-b8b33955d6f5",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "aiforeveryone.jpg"
     },
@@ -621,7 +621,7 @@
     "id" : "c1c22083-f13a-43ca-b68a-eb01792212f1",
     "date" : "2018-04-19T02:33Z",
     "folder" : "8f6aa05a-4f4f-4f5a-adc5-b8b33955d6f5",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "pure_chemistry.jpg"
     },
@@ -632,7 +632,7 @@
     "id" : "a6ed50bd-d501-4bf3-9b20-b7d664179d2a",
     "date" : "2018-04-21T01:40Z",
     "folder" : "9f00514e-1c29-4259-bcf2-572b114fad78",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "viglet-app.js"
     },
@@ -643,7 +643,7 @@
     "id" : "ceffb8ad-c52d-4155-8b09-ba2ddeee2fce",
     "date" : "2018-04-21T01:39Z",
     "folder" : "9f00514e-1c29-4259-bcf2-572b114fad78",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "viglet.js"
     },
@@ -654,7 +654,7 @@
     "id" : "33c69992-65b1-4bfc-a9af-c0fdfabe38c3",
     "date" : "2018-04-21T12:31Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-light-webfont.eot"
     },
@@ -665,7 +665,7 @@
     "id" : "5a5aac80-dffa-4811-a976-2462d8e68f47",
     "date" : "2018-04-21T12:32Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-light-webfont.svg"
     },
@@ -676,7 +676,7 @@
     "id" : "17454010-4d0b-4d2b-8a22-e3ef0e70921f",
     "date" : "2018-04-21T01:55Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-reg-webfont.woff"
     },
@@ -687,7 +687,7 @@
     "id" : "3e7b4b67-063c-4ac6-8833-c6323bad1dd8",
     "date" : "2018-04-21T12:32Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-reg-webfont.svg"
     },
@@ -698,7 +698,7 @@
     "id" : "36f98b26-d222-48ad-bce8-7b2ab0831790",
     "date" : "2018-04-21T12:32Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-light-webfont.ttf"
     },
@@ -709,7 +709,7 @@
     "id" : "2781a767-6086-4eac-a3d9-1f64256aea5f",
     "date" : "2018-04-21T01:55Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-light-webfont.woff"
     },
@@ -720,7 +720,7 @@
     "id" : "042e0a87-c0e8-4357-b020-cc4a1402e82b",
     "date" : "2018-04-21T12:32Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-reg-webfont.ttf"
     },
@@ -731,7 +731,7 @@
     "id" : "238387d9-bf69-412c-ad62-588d5e549a90",
     "date" : "2018-04-21T12:32Z",
     "folder" : "d5daf2b6-1bcf-4743-a437-bca246922246",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "proximanova-reg-webfont.eot"
     },
@@ -742,7 +742,7 @@
     "id" : "174a27fc-337d-49fb-91b5-129baada3d72",
     "date" : "2018-04-21T01:35Z",
     "folder" : "f8be8021-bbc0-430c-8b89-a3d493ac05c4",
-    "postType" : "PT-FILE",
+    "postType" : "File",
     "fields" : {
       "FILE" : "viglet.css"
     },
@@ -753,7 +753,7 @@
     "id" : "7887cd98-a593-4e3c-a7d9-eabf41103d03",
     "date" : "2018-04-29T02:23Z",
     "folder" : "fdbff43b-cc7e-40f1-80a1-062bb08ae5d0",
-    "postType" : "PT-FOLDER-INDEX",
+    "postType" : "FolderIndex",
     "fields" : {
       "DESCRIPTION" : "Home Index",
       "PAGE-LAYOUT" : "680b0ce9-815b-455c-807f-07751f82ab73",
@@ -766,7 +766,7 @@
     "id" : "3be02c4a-a9a8-4976-b9f4-03da138da661",
     "date" : "2018-04-29T02:23Z",
     "folder" : "45ad3138-3c5c-4ef6-866c-430c7476de81",
-    "postType" : "PT-FOLDER-INDEX",
+    "postType" : "FolderIndex",
     "fields" : {
       "DESCRIPTION" : "Folder Index",
       "PAGE-LAYOUT" : "f025bd46-8213-41d2-90ea-97fb2b8e7588",
@@ -779,7 +779,7 @@
     "id" : "91097c52-90b6-4426-8f08-0d56cd83de8d",
     "date" : "2018-04-29T02:24Z",
     "folder" : "652b9733-a925-439b-b006-c1c7d976a169",
-    "postType" : "PT-FOLDER-INDEX",
+    "postType" : "FolderIndex",
     "fields" : {
       "DESCRIPTION" : "Home Index",
       "PAGE-LAYOUT" : "f4d005d8-c92b-40e4-aab3-7fb7588bc7a7",
@@ -792,7 +792,7 @@
     "id" : "e01fd01a-c3d0-4eb1-afaa-3d210d1574e7",
     "date" : "2018-04-29T02:24Z",
     "folder" : "b293c43f-624c-4114-b16a-2c59dbf91056",
-    "postType" : "PT-FOLDER-INDEX",
+    "postType" : "FolderIndex",
     "fields" : {
       "DESCRIPTION" : "Folder Index",
       "PAGE-LAYOUT" : "5a9d8d0c-5991-46d0-a8c3-541a4282da14",
@@ -805,7 +805,7 @@
     "id" : "25ca7d45-4a7d-42cb-93f6-d2f5adca48d4",
     "date" : "2018-04-22T17:03Z",
     "folder" : "6708e941-553f-4348-a485-baa4930fb6f2",
-    "postType" : "PT-TEXT",
+    "postType" : "Text",
     "fields" : {
       "TEXT" : "Significantly lowers integration costs, decreases total cost of ownership, and reduces deployment risks"
     },
@@ -816,7 +816,7 @@
     "id" : "3b2b9451-5a80-4808-b21c-5689bebb741b",
     "date" : "2018-04-22T17:03Z",
     "folder" : "6708e941-553f-4348-a485-baa4930fb6f2",
-    "postType" : "PT-TEXT",
+    "postType" : "Text",
     "fields" : {
       "TEXT" : "Connects mobile devices to existing enterprise systems"
     },
@@ -827,7 +827,7 @@
     "id" : "8e942538-5fe4-4c1d-9176-4e1790bee829",
     "date" : "2018-04-22T17:02Z",
     "folder" : "6708e941-553f-4348-a485-baa4930fb6f2",
-    "postType" : "PT-TEXT",
+    "postType" : "Text",
     "fields" : {
       "TEXT" : "Provides a lightweight API gateway for securing and managing APIs"
     },
@@ -838,7 +838,7 @@
     "id" : "986c5adf-527a-49b5-9a57-29a7c8a51898",
     "date" : "2018-04-22T17:03Z",
     "folder" : "6708e941-553f-4348-a485-baa4930fb6f2",
-    "postType" : "PT-TEXT",
+    "postType" : "Text",
     "fields" : {
       "TEXT" : "Offers rich integration with many identity and access management platforms"
     },
@@ -849,7 +849,7 @@
     "id" : "c947a38a-7586-447a-bd81-8e439daa73ea",
     "date" : "2018-04-22T17:03Z",
     "folder" : "6708e941-553f-4348-a485-baa4930fb6f2",
-    "postType" : "PT-TEXT",
+    "postType" : "Text",
     "fields" : {
       "TEXT" : "Helps streamline regulatory compliance through authentication, authorization, and audit capabilities"
     },
